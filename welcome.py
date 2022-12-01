@@ -57,7 +57,7 @@ async def on_member_join(member):
 
 @bot.listen()
 async def on_member_join(member):
-    role = discord.utils.get(member.guild.roles, id=1005251836317548584)
+    role = discord.utils.get(member.guild.roles, id=Role ID)
     await member.add_roles(role)
     
 @bot.listen()
