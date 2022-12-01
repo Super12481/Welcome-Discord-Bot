@@ -63,5 +63,5 @@ async def on_member_join(member):
 @bot.listen()
 async def on_ready():
   await bot.change_presence(status=discord.Status.online , activity=discord.Activity(type = discord.ActivityType.watching, name = 'for !help'))
-token = "token here"
-bot.run("token")
+  
+bot.run("token here")
